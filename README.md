@@ -19,3 +19,13 @@ Then you can run the server:
 ```
 python3 app.py
 ```
+
+## Dockerfile
+
+1. Build the Image - 
+`docker build -t flask-image .`
+
+2. Run the Container -
+`docker run -p 5000:5000 --rm --name flask-container flask-image`
+
+3. Go to localhost:5000
